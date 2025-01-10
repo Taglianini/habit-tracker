@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const App = () => {
+export const AddHabit = () => {
   const [contador, setContador] = useState(0);
 
   const sumaLongitud = () => setContador(contador => contador + 1);
@@ -25,5 +25,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
